@@ -1,25 +1,106 @@
 body {
-  font-family: "Roboto", monospace;
-  color: #fff;
-  text-align: center;
-  background-image: url(../images/temp.jpg);
-  background-position: top center;
-  background-size: auto;
-  background-repeat: no-repeat;
+  font-family: 'Source Code Pro', monospace;
+  background-color: #f6f6f6;
+  margin: 0;
 }
 
-h1 {
-  font-size: 24px;
-  margin: 40% 0 10%;
+html {
+  font-size: 62.5%;
 }
 
-span {
-  display: block;
-  font-size: 16px;
-  text-transform: uppercase;
-  margin-bottom: 10px;
+body {
+  font-size: 1.4rem;
+}
+
+h1, h2, h3 {
+  margin: 1rem 0;
 }
 
 p {
-  font-size: 36px;
+  margin: 2rem 0;
+}
+
+h1,
+.h1 {
+  font-size: 2.4rem;
+}
+
+h2,
+.h2 {
+  font-size: 2.1rem;
+}
+
+h3,
+.h3 {
+  font-size: 1.8rem;
+}
+
+.container {
+  margin: 0 2rem;
+}
+
+header {
+  background-color: #fff;
+  padding: 1rem 0;
+  border-bottom: solid 1px #e5e5e5;
+}
+
+.details {
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 2rem 0;
+}
+
+.details__item {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.details__item:last-of-type {
+  margin-bottom: 0;
+}
+
+.details__item .label {
+  font-weight: 400;
+}
+
+.photos {
+  overflow: hidden;
+}
+
+.photos img {
+  max-width: 100%;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.photos img:last-of-type {
+  margin-bottom: 0;
+}
+
+footer {
+  clear: both;
+  padding: 2rem 0;
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+  header {
+    text-align: center;
+  }
+
+  .details {
+    text-align: center;
+  }
+
+  .details__item {
+    display: inline-block;
+    margin: 0 0.5rem;
+  }
+
+  .photos img {
+    height: 200px;
+    float: left;
+    margin-right: 2rem;
+  }
 }
