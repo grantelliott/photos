@@ -1,52 +1,33 @@
-<!doctype html>
-<html class="no-js" lang="en-GB">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Photos</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <!-- Place favicon.ico in the root directory -->
-    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/styles.css">
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <h1 class="h2">Grant Elliott</h1>
-        <h2 class="h1">Photo blog</h2>
+---
+layout: default
+---
+
+<div class="container">
+  <div class="details">
+      <div class="details__item">
+        <span class="label">Location: </span>Cartagena, Spain
       </div>
-    </header>
-    <div class="container">
-      <div class="details">
-          <div class="details__item">
-            <span class="label">Location: </span>Cartagena, Spain
-          </div>
-          <div class="details__item">
-            <span class="label">Camera: </span>Fujifilm X100T
-          </div>
+      <div class="details__item">
+        <span class="label">Camera: </span>Fujifilm X100T
       </div>
-      <div class="photos">
-        <img src="./assets/images/cartagena-1.jpg">
-        <img src="./assets/images/cartagena-2.jpg">
-        <img src="./assets/images/cartagena-3.jpg">
-        <img src="./assets/images/cartagena-4.jpg">
-        <img src="./assets/images/cartagena-5.jpg">
-        <img src="./assets/images/cartagena-6.jpg">
-        <img src="./assets/images/cartagena-7.jpg">
-        <img src="./assets/images/cartagena-8.jpg">
-        <img src="./assets/images/cartagena-9.jpg">
-        <img src="./assets/images/cartagena-10.jpg">
-        <img src="./assets/images/cartagena-11.jpg">
-        <img src="./assets/images/cartagena-12.jpg">
-      </div>
-    </div>
-    <footer>
-      <div class="container">
-        All photos &copy; Grant Elliott
-      </div>
-    </footer>
-  </body>
-</html>
+  </div>
+  <div class="photos">
+    {% for image in site.static_files %}
+      {% if image.path contains '/assets/images' %}
+        <img src="./{{ image.path }}" alt="">
+      {% endif %}
+    {% endfor %}
+    <!-- <img src="./assets/images/cartagena-1.jpg">
+    <img src="./assets/images/cartagena-2.jpg">
+    <img src="./assets/images/cartagena-3.jpg">
+    <img src="./assets/images/cartagena-4.jpg">
+    <img src="./assets/images/cartagena-5.jpg">
+    <img src="./assets/images/cartagena-6.jpg">
+    <img src="./assets/images/cartagena-7.jpg">
+    <img src="./assets/images/cartagena-8.jpg">
+    <img src="./assets/images/cartagena-9.jpg">
+    <img src="./assets/images/cartagena-10.jpg">
+    <img src="./assets/images/cartagena-11.jpg">
+    <img src="./assets/images/cartagena-12.jpg"> -->
+  </div>
+</div>
