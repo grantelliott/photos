@@ -50,8 +50,7 @@ a.visited {
 }
 
 .container {
-  width: 90%;
-  margin: 0 auto;
+  margin: 0 2rem;
 }
 
 header {
@@ -80,20 +79,17 @@ header {
 }
 
 .photos {
-  display: flex;
-  flex-flow: row wrap;
-  /* margin-left: -8px; /* Adjustment for the gutter */ */
-  width: 100%;
+  overflow: hidden;
 }
 
 .photos img {
-  flex: auto;
-  height: auto;
-  /* height: auto; */
-  /* min-width: 150px; */
-  /* margin: 0 8px 8px 0; /* Some gutter */
-  padding: 1rem;
-  object-fit: cover;
+  max-width: 100%;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.photos img:last-of-type {
+  margin-bottom: 0;
 }
 
 footer {
@@ -114,5 +110,17 @@ footer {
   .details__item {
     display: inline-block;
     margin: 0 0.5rem;
+  }
+
+  .photos {
+    column-count: 5;
+  }
+
+  .photos img {
+    height: 200px;
+    float: left;
+    margin-right: 2rem;
+    width: 100% !important;
+    height: auto !important;
   }
 }
