@@ -1,0 +1,9 @@
+---
+layout: default
+title: "New York, NY"
+image-folder: "new-york"
+camera: "Fujifilm X100T"
+date: "2018-05-01"
+---
+
+{% include grid.html %}
