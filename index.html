@@ -2,8 +2,10 @@
 layout: default
 ---
 
-<div class="container home posts">
-  {% for post in site.posts %}
-		<p><a href="{{ post.url }}" >{{ post.title }}</a></p>
-  {% endfor %}
-</div>
+<section class="posts">
+  <div class="container">
+    {% for post in site.posts %}
+  		<p class="posts__item"><a href="{{ post.url }}" >{{ post.title }}</a></p>
+    {% endfor %}
+  </div>
+</section>

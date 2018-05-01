@@ -1,14 +1,7 @@
 <div class="container">
   <div class="details">
-      <div class="details__item">
-        <span class="label">Location: </span>{{ page.title }}
-      </div>
-      <div class="details__item">
-        <span class="label">Camera: </span>{{ page.camera }}
-      </div>
-      <div class="details__item">
-        <span class="label">Film Simluation: </span>{{ page.film-simulation }}
-      </div>
+      <h6 class="details__item"><span>Location:</span> {{ page.title }}</h6>
+      <h6 class="details__item"><span>Camera:</span> {{ page.camera }}</h6>
   </div>
   <div class="photos">
     {% capture image-folder %}{{ page.image-folder }}{% endcapture %}
@@ -19,3 +12,4 @@
     {% endfor %}
   </div>
 </div>
+{% include footer.html %}
