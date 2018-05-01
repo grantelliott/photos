@@ -1,5 +1,4 @@
 ---
-layout: default
 title:  "Cartagena, Spain"
 image-folder: "cartagena"
 camera: "Fujifilm X100T"
