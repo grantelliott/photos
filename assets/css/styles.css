@@ -161,7 +161,9 @@ footer {
 }
 
 #mc_embed_signup input[type="submit"] {
+    -webkit-border-radius: 3px !important;
     border-radius: 3px !important;
+    background-color: #aaa !important;
     font-family: 'Source Code Pro', monospace !important;
 }
 
