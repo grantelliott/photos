@@ -144,7 +144,7 @@ footer {
 .standout {
   display: inline;
   background: #41FFC8;
-  padding: 0 0.5rem;
+  padding: 0 0.5rem 0.2rem;
   font-weight: normal;
 }
 
@@ -158,6 +158,11 @@ footer {
 
 #mc_embed_signup label {
   font-weight: normal !important;
+}
+
+input[type="submit"] {
+    border-radius: 3px !important;
+    font-family: 'Source Code Pro', monospace !important;
 }
 
 /*
