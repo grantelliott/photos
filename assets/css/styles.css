@@ -140,7 +140,27 @@ footer {
 .posts__item {
   margin-bottom: 2rem;
 }
-/* 
+
+.standout {
+  display: inline;
+  background: #41FFC8;
+  padding: 0 0.5rem;
+  font-weight: normal;
+}
+
+.mailchimp-signup {
+  margin-top: 2rem;
+}
+
+#mc_embed_signup {
+  clear:left; width:100%;
+}
+
+#mc_embed_signup label {
+  font-weight: normal !important;
+}
+
+/*
 
 @media screen and (min-width: 600px) {
   .photos {
