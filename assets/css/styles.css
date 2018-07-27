@@ -160,7 +160,7 @@ footer {
   font-weight: normal !important;
 }
 
-input[type="submit"] {
+#mc_embed_signup input[type="submit"] {
     border-radius: 3px !important;
     font-family: 'Source Code Pro', monospace !important;
 }
