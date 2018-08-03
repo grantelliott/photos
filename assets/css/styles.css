@@ -10,6 +10,14 @@ body {
   text-align: center;
 }
 
+header {
+  background-color: #fafafa;
+}
+
+header a {
+  text-decoration: none;
+}
+
 .container {
   margin: 0 2rem;
 }
@@ -102,6 +110,11 @@ footer {
   overflow: hidden;
 }
 
+.details__item--copy {
+  display: block;
+  margin-top: 1rem;
+}
+
 .details__item:last-of-type {
   margin-right: 0;
 }
@@ -176,5 +189,15 @@ footer {
     -webkit-column-gap: 2rem;
     column-count: 3;
     column-gap: 2rem;
+  }
+
+  .photos img {
+    display: inline-block;
+  }
+
+
+  .mailchimp-signup {
+    width: 50%;
+    margin: 0 auto;
   }
 }

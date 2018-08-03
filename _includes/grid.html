@@ -2,6 +2,9 @@
   <div class="details">
       <h6 class="details__item"><span>Location:</span> {{ page.title }}</h6>
       <h6 class="details__item"><span>Camera:</span> {{ page.camera }}</h6>
+      {% if page.copy %}
+        <h6 class="details__item details__item--copy">{{ page.copy }}</h6>
+      {% endif %}
   </div>
   <div class="photos">
     {% capture image-folder %}{{ page.image-folder }}{% endcapture %}
