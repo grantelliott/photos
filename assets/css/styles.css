@@ -149,7 +149,7 @@ footer {
 }
 
 .mailchimp-signup {
-  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 #mc_embed_signup {
@@ -168,18 +168,13 @@ footer {
     font-family: 'Source Code Pro', monospace !important;
 }
 
-/*
-
 @media screen and (min-width: 600px) {
   .photos {
-    column-count: 5;
+    -moz-column-count: 3;
+    -moz-column-gap: 2rem;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 2rem;
+    column-count: 3;
+    column-gap: 2rem;
   }
-
-  .photos img {
-    height: 200px;
-    float: left;
-    margin-right: 2rem;
-    width: 100% !important;
-    height: auto !important;
-  }
-} */
+}
