@@ -190,7 +190,9 @@ header h2 {
   .photos img {
     display: inline-block;
   }
+}
 
+@media screen and (width: 768px) {
   .mailchimp-signup {
     width: 50%;
     margin: 0 auto;
