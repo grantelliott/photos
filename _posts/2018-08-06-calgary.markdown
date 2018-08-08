@@ -1,0 +1,9 @@
+---
+title: "Calgary, AB, Canada"
+image-folder: "calgary"
+camera: "Fujifilm X100T"
+copy: "A flying visit to Calgary before hitting the Rockies"
+date: "2018-08-06"
+---
+
+{% include grid.html %}
