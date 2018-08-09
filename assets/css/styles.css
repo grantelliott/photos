@@ -13,7 +13,6 @@ body {
 header {
   background-color: #fafafa;
   padding: 1rem 0;
-  border-bottom: solid 1px #ccc;
 }
 
 header a {
@@ -24,7 +23,6 @@ footer {
   background-color: #eee;
   margin-top: 4rem;
   padding: 2rem 0;
-  border-top: solid 1px #ccc;
 }
 
 .container {
