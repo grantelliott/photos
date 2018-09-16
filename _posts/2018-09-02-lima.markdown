@@ -3,7 +3,7 @@ title: "Lima, Peru"
 image-folder: "lima"
 camera: "Fujifilm X100T"
 copy: "Our first stop in South America before our tour or Peru begins. The VW Beetle seems a popular car!"
-date: "2018-09-01"
+date: "2018-09-02"
 ---
 
 {% include grid.html %}
