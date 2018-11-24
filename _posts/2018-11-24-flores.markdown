@@ -1,0 +1,9 @@
+---
+title: "Flores, Indonesia"
+image-folder: "flores"
+camera: "Fujifilm X100T"
+copy: "Komodo Island / Padar Island / Kelor Island / Labuan Bajo / Le Pirate Island"
+date: "2018-11-24"
+---
+
+{% include grid.html %}
