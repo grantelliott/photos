@@ -6,4 +6,4 @@ copy: "A prison used in the Vietnam War, the world's longest sea cable car (almo
 date: "2019-01-13"
 ---
 
-{% include grid.html %}
+{% include grid.html %} 
