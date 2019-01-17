@@ -1,0 +1,9 @@
+---
+title: "Hue, Vietnam"
+image-folder: "hue"
+camera: "Fujifilm X100T"
+copy: "Torrential rain makes for some moody black & white shots from the former imperial capital."
+date: "2019-01-10"
+---
+
+{% include grid.html %}

@@ -136,7 +136,7 @@ header h2 {
   padding: 2rem 0;
 }
 
-.posts p:nth-child(-n+8):before {
+.posts p:nth-child(-n+5):before {
   content: 'New';
   display: inline;
   margin-right: 1rem;
