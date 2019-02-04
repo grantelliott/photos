@@ -84,7 +84,8 @@ a:visited {
 }
 
 .icon {
-  font-size: 1.6rem;
+  display: inline-block;
+  font-size: 2rem;
   margin-bottom: 2rem;
   text-decoration: none;
 }
