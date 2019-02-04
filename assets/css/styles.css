@@ -21,8 +21,8 @@ header a {
 
 footer {
   background-color: #eee;
-  margin-top: 4rem;
-  padding: 2rem 0;
+  /*margin-top: 4rem;*/
+  padding: 1rem 0 2rem;
 }
 
 .container {
