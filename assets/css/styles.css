@@ -149,14 +149,6 @@ header h2 {
   margin-bottom: 2rem;
 }
 
-.standout {
-  display: inline-block;
-  background: #41FFC8;
-  padding: 0 0.5rem 0.2rem;
-  font-weight: normal;
-  margin-bottom: 1rem;
-}
-
 .mailchimp-signup {
   margin-bottom: 1rem;
 }
