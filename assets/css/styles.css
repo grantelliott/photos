@@ -133,7 +133,7 @@ header h2 {
 }
 
 .posts {
-  padding: 2rem 0;
+  /*padding: 2rem 0;*/
 }
 
 .posts p:nth-child(-n+4):before {
