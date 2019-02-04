@@ -21,7 +21,6 @@ header a {
 
 footer {
   background-color: #eee;
-  /*margin-top: 4rem;*/
   padding: 1rem 0 2rem;
 }
 
@@ -128,12 +127,8 @@ header h2 {
   margin-bottom: 2rem;
 }
 
-.photos img:last-of-type {
-  margin-bottom: 0;
-}
-
 .posts {
-  padding: 2rem 0;
+  padding-top: 2rem;
 }
 
 .posts p:nth-child(-n+4):before {
