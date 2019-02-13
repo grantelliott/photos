@@ -1,9 +1,0 @@
----
-title: "Ella, Sri Lanka"
-image-folder: "ella"
-camera: "Fujifilm X100T"
-copy: "The small mountainside town of Ella is our base for a few days hiking in Scottish-like scenery, although never started a Munro by walking along a railway line before!"
-date: "2019-02-10"
----
-
-{% include grid.html %}
