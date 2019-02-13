@@ -9,7 +9,7 @@
   <div class="photos">
     {% capture image-folder %}{{ page.image-folder }}{% endcapture %}
     {% for image in site.static_files %}
-      {% if image.path = image-folder %}
+      {% if image.path contains image-folder %}
         <img src="{{ site.url }}{{ image.path }}" alt="">
       {% endif %}
     {% endfor %}
