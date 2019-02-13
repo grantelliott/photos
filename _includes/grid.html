@@ -7,7 +7,7 @@
       {% endif %}
   </div>
   <div class="photos">
-    {% capture image-folder %}{{ page.image-folder }}{% endcapture %}
+    {% assign image-folder = {{ page.image-folder }} %}
     {% for image in site.static_files %}
       {% if image.path contains image-folder %}
         <img src="{{ site.url }}{{ image.path }}" alt="">
