@@ -4,3 +4,4 @@ defaults:
       path: ""
     values:
       layout: "default"
+      url: https://grantelliott.co
