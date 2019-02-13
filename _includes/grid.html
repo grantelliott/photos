@@ -7,7 +7,7 @@
       {% endif %}
   </div>
   <div class="photos">
-    {% capture image-folder %}{{ page.image-folder }}{% endcapture %}
+    {% capture 'image-folder' %}{{ page.image-folder }}{% endcapture %}
     {% for image in site.static_files %}
       {% if image.path == 'image-folder' %}
         <img src="{{ image.path }}" alt="">
