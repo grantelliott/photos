@@ -137,14 +137,14 @@ header h2 {
   padding-top: 2rem;
 }
 
-.posts p:nth-child(-n+4):before {
+/* .posts p:nth-child(-n+4):before {
   content: 'New';
   display: inline;
   margin-right: 1rem;
   background: #41FFC8;
   font-size: 1.2rem;
   padding: 0 0.2rem 0 0.1rem;
-}
+} */
 
 .posts__item {
   margin-bottom: 2rem;
