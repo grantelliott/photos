@@ -1,6 +1,6 @@
 ---
 title: "Nara, Japan"
-image-folder: "nara"
+image-folder: "temp"
 camera: "Fujifilm X100T"
 copy: "Day trip to Nara where I think there are more deer than people!"
 date: "2018-12-18"
