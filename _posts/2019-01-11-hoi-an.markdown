@@ -1,9 +1,0 @@
----
-title: "Hoi An, Vietnam"
-image-folder: "hoi-an"
-camera: "Fujifilm X100T"
-copy: "Few days exploring the ancient port town of Hoi An with its thousands of lanterns."
-date: "2019-01-11"
----
-
-{% include grid.html %}

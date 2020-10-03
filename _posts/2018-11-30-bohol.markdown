@@ -1,9 +1,0 @@
----
-title: "Bohol, Philippines"
-image-folder: "bohol"
-camera: "Fujifilm X100T"
-copy: "Balicasag Island / Panglao / Bohol countryside / Chocolate Hills / Loboc River"
-date: "2018-11-30"
----
-
-{% include grid.html %}

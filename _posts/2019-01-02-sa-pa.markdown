@@ -1,9 +1,0 @@
----
-title: "Sa Pa, Vietnam"
-image-folder: "sa-pa"
-camera: "Fujifilm X100T"
-copy: "Few days visit to northern Vietnam and the hillside town of Sa Pa. Lots of trekking but very cloudy and wet."
-date: "2019-01-02"
----
-
-{% include grid.html %}

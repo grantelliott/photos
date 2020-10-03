@@ -1,9 +1,0 @@
----
-title: "Yosemite National Park, CA, USA"
-image-folder: "yosemite"
-camera: "Fujifilm X100T"
-copy: "Perfect wilderness for a few days hiking. El Capitan and Half Dome were epic!"
-date: "2018-08-25"
----
-
-{% include grid.html %}

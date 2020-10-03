@@ -1,9 +1,0 @@
----
-title: "Dikwella, Sri Lanka"
-image-folder: "dikwella"
-camera: "Fujifilm X100T"
-copy: "First stop on the southern coast is this tiny fishing village - had the beach to ourselves most days!"
-date: "2019-02-12"
----
-
-{% include grid.html %}

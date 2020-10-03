@@ -1,9 +1,0 @@
----
-title: "Kandy, Sri Lanka"
-image-folder: "kandy"
-camera: "Fujifilm X100T"
-copy: "Tuk tuk tour through the hillside town of Kandy and surrounding area as people go about their everyday lives."
-date: "2019-02-03"
----
-
-{% include grid.html %}

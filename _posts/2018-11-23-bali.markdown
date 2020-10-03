@@ -1,9 +1,0 @@
----
-title: "Bali & The Gili Islands, Indonesia"
-image-folder: "bali-gili-islands"
-camera: "Fujifilm X100T"
-copy: "From temples and monkeys in Ubud to white sand and crystal clear water in the Gili Islands."
-date: "2018-11-23"
----
-
-{% include grid.html %}

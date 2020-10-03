@@ -1,9 +1,0 @@
----
-title: "Kobe, Japan"
-image-folder: "kobe"
-camera: "Fujifilm X100T"
-copy: "Short stopover in the port city of Kobe that exceeds all our expectations. Worth it alone for the Kobe beef!"
-date: "2018-12-03"
----
-
-{% include grid.html %}

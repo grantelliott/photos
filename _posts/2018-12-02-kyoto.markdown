@@ -1,9 +1,0 @@
----
-title: "Kyoto, Japan"
-image-folder: "kyoto"
-camera: "Fujifilm X100T"
-copy: "Traditional Japanese culture at its best makes for an unforgettable visit to Kyoto."
-date: "2018-12-02"
----
-
-{% include grid.html %}

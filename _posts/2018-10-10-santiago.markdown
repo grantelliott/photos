@@ -1,9 +1,0 @@
----
-title: "Santiago, Chile"
-image-folder: "santiago"
-camera: "Fujifilm X100T"
-copy: "A few days stopover in Santiago before we leave South America for Australia."
-date: "2018-10-10"
----
-
-{% include grid.html %}

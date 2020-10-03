@@ -1,9 +1,0 @@
----
-title: "Sigiriya, Sri Lanka"
-image-folder: "sigiriya"
-camera: "Fujifilm X100T"
-copy: "Sunrise hike to the top of Pidurangala Rock for some amazing (albeit cloudy) views over the surrounding countryside and neighbouring Lion Rock."
-date: "2019-02-02"
----
-
-{% include grid.html %}
